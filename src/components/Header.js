@@ -3,16 +3,16 @@ import pikachu from "../images/pikachu.jpeg"
 
 function Header() {
     return (
-        <div>
+        <header className="header">
             <img 
             src={pikachu}
             className="header-image" 
             />
-            <h2 className="header-title">Header component</h2>
-            <h4 className="header-project"></h4>
+            <h2 className="header-title">Meme Generator</h2>
+            <h4 className="header-project">hoho</h4>
 
 
-        </div>
+        </header>
 
     )
 }
